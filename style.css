@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  height: 100vh;
+  background-image: url("./img/B.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Zen Antique", serif;
+}
+
+.box {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 90px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.box h1 {
+  color: white;
+  margin-bottom: 40px;
+  font-size: 45px;
+  letter-spacing: 2px;
+}
+.box h3 {
+  color: white;
+  font-size: 70px;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+}
+.box p {
+  color: white;
+  margin-bottom: 40px;
+  justify-content: center;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+button {
+  background-color: #4caf50;
+  font-size: 12px;
+  padding: 10px 24px;
+  border-radius: 8px;
+  border: 2px solid #ffffff;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 70%;
+}
+button:hover {
+  background-color: #ffa500;
+  color: #092050;
+}
+.enter {
+  font-size: 20px;
+}
